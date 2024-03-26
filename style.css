@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 85%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    padding: 7vw 12vw;
+}
+.left{
+    height: 100%;
+    width: 45%;
+    background-color: #333;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAATXAJzlTqiXT2lRF_RQ1q4mFf7V0nv0uRFvjeB9Ig%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1&ipt=ee7d5da77c0cf3cc01ebc8d514b01d50669ee5978cf4d9d6c994061e899a6292&ipo=images);
+    background-size: cover;
+    background-position: center;
+}
+.right{
+    height: 100%;
+    width: 55%;
+    padding: 0 3vw;
+}
+.right h3{
+    font-size: 35px;
+    font-weight: 500;
+}
+.all-songs{
+    height: 85%;
+    margin-top: 25px;
+}
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #5c5c5c;
+    padding: 10px 10px;
+}
+
+.song-card:hover{
+    background-color: #656565;
+}
+.song-card:nth-last-child(1){
+    border-bottom: 1px solid #5c5c5c;
+}
+
+
+.song-card .part1{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+#songImage{
+    width: 520px;
+    height: 100%;
+    
+}
+
+.song-card img{
+    height: 50px;
+    width: 55px;
+    margin-right: 20px;
+}
+.song-card h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.song-card h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.player{
+    height: 15%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.player h3{
+    padding: 10px;
+    background-color: #474747;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.player h3 i{
+    font-size: 22px;
+}
+.player h3:active{
+    scale: 0.9;
+}
